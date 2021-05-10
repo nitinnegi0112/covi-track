@@ -1,0 +1,39 @@
+.card {
+    padding: 1em;
+   
+    border-radius: 10px;
+    margin: 0 1em;
+    background-color: #fafafa;
+}
+.card__heading{
+    text-transform: capitalize;
+    font-size: 1.25rem;
+}
+.card__cases{
+    font-size:  2.5rem;
+    font-weight: 600;
+}
+.card__today{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.active{
+    color: #0079fa;
+   
+    background-color: #0079fa1a ;
+    
+}
+.recovered{
+    color:#28A645;
+   
+    background-color: #28a6451a ;
+}
+.death{
+    color: #fe073a;
+    
+    background-color: #fe073a1a ;
+}
+.total {
+    color: #161625;
+    background-color: #1616251a ;
+}

@@ -1,0 +1,35 @@
+.countrytable {
+    
+    font-size: .7rem;
+    color: black;
+    padding: 1em;
+  background-color: #fdfcfa;
+   border-radius:10px;
+   width: 30vw
+}
+.countrytable__row{
+    border-radius: 2px;
+    padding: 0.25em;
+    border: 2px solid rgba(151, 151, 151, 0.144);
+    margin: 0.7em 0;
+    color: rgba(0, 0, 0, 0.794);
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.countrytable__flag{
+    width: 30px;
+    border-radius:2px;
+   
+}
+.countrytable__name{
+    margin-left: 0.5em;
+    font-size: 1.25rem;
+}
+.countrytable__cases{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.countrytable__row__heading{
+    display: flex;
+}
